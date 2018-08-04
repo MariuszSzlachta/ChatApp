@@ -1,8 +1,19 @@
+* {
+    box-sizing: border-box;
+}
 .MessageList {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 75vw;
+    width: 80vw;
     padding: 20px;
+}
+.MessageFrom {
+    margin-right: 0.5em;
+
+}
+.MessageText {
+    font-style: italic;
+    font-size: 0.8em;
 }

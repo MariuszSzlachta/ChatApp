@@ -1,11 +1,20 @@
+* {
+    box-sizing: border-box;
+}
 .MessageForm {
     display: flex;
     flex-direction: row;
+    
 }
 
 .MessageInput {
     flex: 1;
     padding: 20px;
-    border: 0;
-    border-top: 1px solid #ccc;
+    margin: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    
+}
+.MessageInput:focus {
+    outline-color: #34495e;
 }
